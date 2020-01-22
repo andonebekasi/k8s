@@ -21,12 +21,11 @@
     $ sudo subscription-manager repos --enable rhel-7-server-ansible-2.9-rpms
 
 
- 
+ 2. yum install git
+
+    ===================================================
 
 
-   ===================================================
-
-
-petunjuk install ada dibawah ini menggunakan ansible
+    petunjuk install ada dibawah ini menggunakan ansible
   
-https://medium.com/@baskoro.oktianto/how-to-create-a-high-availability-vanilla-kubernetes-cluster-7e50f0c6f671
+    https://medium.com/@baskoro.oktianto/how-to-create-a-high-availability-vanilla-kubernetes-cluster-7e50f0c6f671
