@@ -27,7 +27,10 @@
  3. testing host menggunakan 
     ansible -i hosts -m ping all
     
+ 4. https://metallb.universe.tf/installation/
     
+    kubectl apply -f https://raw.githubusercontent.com/google/metallb/v0.8.3/manifests/metallb.yaml
+
     
     ===================================================
 
@@ -36,7 +39,7 @@
   
     https://medium.com/@baskoro.oktianto/how-to-create-a-high-availability-vanilla-kubernetes-cluster-7e50f0c6f671
     https://howto.lintel.in/enable-disable-selinux-centos/
-    
+    https://kubernetes.io/docs/reference/kubectl/cheatsheet/
     note:
     
     /etc/selinux/config 
