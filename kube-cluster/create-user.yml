@@ -1,0 +1,12 @@
+- hosts: all
+  become: yes
+  vars:
+    password: $1$TVwuXr/c$6pQK6fhN.vKQPU4MaSMB2/
+  tasks:
+    - name: create the admin user
+      user: name=admin append=yes state=present createhome=yes shell=/bin/bash password={{password}}
+    - name: give admin passwordless sudo
+      lineinfile:
+        dest: /etc/sudoers
+        line: 'admin ALL=(ALL) NOPASSWD: ALL'
+        validate: 'visudo -cf %s'
