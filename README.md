@@ -1,4 +1,4 @@
-# k8s
+# k8s   tested centos 7.7
 
   petunjuk install ada dibawah ini menggunakan ansible
   
