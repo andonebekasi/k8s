@@ -23,6 +23,12 @@
 
  2. yum install git
 
+
+ 3. testing host menggunakan 
+    ansible -i hosts -m ping all
+    
+    
+    
     ===================================================
 
 
