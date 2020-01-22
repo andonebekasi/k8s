@@ -35,3 +35,23 @@
     petunjuk install ada dibawah ini menggunakan ansible
   
     https://medium.com/@baskoro.oktianto/how-to-create-a-high-availability-vanilla-kubernetes-cluster-7e50f0c6f671
+    https://howto.lintel.in/enable-disable-selinux-centos/
+    
+    note:
+    
+    /etc/selinux/config 
+    if you open file you would see something like
+
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+# enforcing – SELinux security policy is enforced.
+# permissive – SELinux prints warnings instead of enforcing.
+# disabled – No SELinux policy is loaded.
+SELINUX=enforcing
+# SELINUXTYPE= can take one of these two values:
+# targeted – Targeted processes are protected,
+# mls – Multi Level Security protection.
+SELINUXTYPE=targeted
+
+ 	
+getenforce
