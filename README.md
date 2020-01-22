@@ -30,7 +30,9 @@
  4. https://metallb.universe.tf/installation/
     
     kubectl apply -f https://raw.githubusercontent.com/google/metallb/v0.8.3/manifests/metallb.yaml
-
+    
+ 5. https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/
+    
     
     ===================================================
 
