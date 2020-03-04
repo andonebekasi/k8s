@@ -60,3 +60,14 @@ SELINUXTYPE=targeted
 
  	
 getenforce
+========
+
+https://kubernetes.io/id/docs/concepts/cluster-administration/manage-deployment/
+https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/
+https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/
+https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
+
+---------
+
+
+
